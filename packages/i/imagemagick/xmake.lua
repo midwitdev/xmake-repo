@@ -4,7 +4,7 @@ package("imagemagick")
     set_description("ImageMagick is a FOSS software suite for modifying images. This does NOT provide any of the utilities. It installs the C/C++ Libraries.")
     set_license("Apache-2.0")
 
-    add_urls("https://download.imagemagick.org/ImageMagick/download/releases/ImageMagick-$(version).tar.gz")
+    add_urls("https://download.imagemagick.org/ImageMagick/download/releases/ImageMagick-$(version).tar.xz")
     add_versions("7.0.11-13", "6c162d7cbd7b80968a6d083d39eb18d9c9bbd49f500f7f49c9a5dcc0fc36a03b")
     add_versions("7.1.0-4", "94a7a52f633891cc29eefc49da95408ed68c64c3690402dc401cd0478d2bd91f")
 
